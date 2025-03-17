@@ -114,7 +114,7 @@ const init = async () => {
     console.log("seeded!");
 
     app.listen(PORT, () => {
-      console.log(`server alive on port${PORT}`);
+      console.log(`server alive on port ${PORT}`);
     });
   } catch (error) {}
 };
